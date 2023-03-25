@@ -16,3 +16,14 @@ void SecondArrayWithIF(string[] array, string[] array2)
         }
     }
 }
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array2[i]} ");
+    }
+}
+SecondArrayWithIF(array, array2);
+System.Console.WriteLine("Новый массив:");
+PrintArray(array2);
